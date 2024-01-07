@@ -152,3 +152,54 @@
 .midnight-container-img{
     padding: 68px 138px 67px 0px;
 }
+
+
+      /* date time place style  */
+
+
+.place-date-time{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    width: 82%;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-right:290px;
+    padding-bottom: 120px;
+    border-radius: 16px;
+}      
+
+span{
+    color:#F00; 
+}
+.place-date-time{
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+.place-date-time-btn{
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border: none;
+    
+}
+#place-date-time-con{
+    padding: 100px 0px 0px 0px;
+}
+#btn{
+    margin-top: 48px;
+}
+   
