@@ -9,13 +9,18 @@
 
  .new-year-bennar{
     background-image:url('B9A1-New-Year-New-Mission-main/B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png');
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 1320px;
     width: 82%;
     margin: 0px auto;
     margin-top: 50px;
-    margin-right:250px;
+    margin-right:290px;
+    padding-bottom: 120px;
+    border-radius: 16px;
+    
     
 
 }
@@ -32,6 +37,7 @@
     font-size: 32px;
     font-weight: 400;
     padding-bottom: 16px;
+    padding: 20px 0px 0px 0px;
     
 }
 .bennar-text-tow{
@@ -41,4 +47,47 @@
     font-size: 72px;
     font-weight: 900;
 
+}
+
+                     /* 65% off style  */
+
+.holyday-items-one{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+.holyday-item-tow{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.holyday-item-three{
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+   
+}
+.holyday-item-img{
+    display: block;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+   margin: 0px auto;
+}
+#holyday-items-one{
+    padding-bottom: 50px;
+}
+#holyday-item-tow{
+    padding-bottom: 16px;
+}
+.holyday-item-three{
+    padding-bottom: 50px;
 }
