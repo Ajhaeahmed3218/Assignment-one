@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    /* font-family: 'Merriweather', serif; */
+
+   /* bennar style     */
+
+ .new-year-bennar{
+    background-image:url('B9A1-New-Year-New-Mission-main/B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    width: 82%;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-right:250px;
+    
+
+}
+.bennar-text{
+    max-width: 632px;
+    width: 82%;
+    padding:150px 344px;
+}
+
+.bennar-text-one{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    
+}
+.bennar-text-tow{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
