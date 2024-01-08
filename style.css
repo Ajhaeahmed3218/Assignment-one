@@ -393,7 +393,12 @@ span{
 
       /* olyday sell style */
    
-
+#Holidays-Sale-sub-containter{
+    margin-top:65px ;
+}
+#Holidays-Sale{
+    margin-bottom: 120px;
+}
 
 .Holidays-Sale-first-p{
     color: #070211;
@@ -406,7 +411,7 @@ span{
 .Holidays-Sale-heading{
     color: #070211;
     font-family: 'Merriweather',sans-serif;
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 900;
     text-align: center;
     margin-top: 16px;
@@ -453,6 +458,20 @@ span{
     padding: 0px;
     margin: 0px;
 }
+#Holidays-Sale-sub-containter{
+    margin-bottom: -0px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .tow{
     max-width: 1320px;
     height: 300px;
@@ -668,3 +687,69 @@ hr{
 .peragraf-tow{
     padding-right:320px ;
 }
+
+
+
+
+/* for test */
+.holiday-middle{
+    box-sizing: border-box;
+    margin-top: 20px;
+    /* background-color: #377e74; */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -0px;
+}
+
+.holiday-middle{
+    top: 5px;
+    max-width: 1320px;
+    width: 80%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    /* background-color: #377e74; */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;}
+    .discount{
+        position: absolute;
+        box-sizing: border-box;
+        width: 20%;
+        top: 10%;
+        right: 20%;
+        
+    }
+    #img-4{
+        width: 100%;
+    }
+    
+    .holiday-bottom{
+        /* background-color: #377e74; */
+        box-sizing: border-box;
+    }
+    #img-5,#img-6{
+        width: 100%;
+    }
+    
+    .box-div{
+        width: 35%;
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }   
+
+    .red-div{
+        max-width: 1320px;
+        width: 80%;
+        margin: 0px auto;
+        margin-top: -0px;
+        padding-bottom: 10px;
+    }
+    #img-6{
+        position: relative;
+        top: 3300px;
+        left: 150px;
+        
+    }
