@@ -282,7 +282,6 @@ span{
 .best-gift-main-container{
     max-width: 1320px;
     width: 80%;
-    background-color: antiquewhite;
     margin: 0px auto;
 
 }
@@ -319,4 +318,92 @@ span{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+}
+
+          /* Subscribe Newsletter style */
+
+.Newsletter-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1320px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.envelope{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    padding-top: 80px;
+}
+
+.Subscribe-text{
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather',sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.Subscribe-peragraf{
+    max-width: 900px;
+    width: 100%;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-top: 22px;
+   margin-bottom: 50px;
+
+}
+#email {
+    height: 72px;
+    max-width: ;
+    width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0px 0px 50px ;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+
+    
+}
+#submit{
+    position: relative;
+    height: 72px;
+    width: 200px;
+    left: -5px;
+    border: none;
+    outline: none;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #F00;
+
+}
+.Subscribe-button{
+    padding-bottom: 80px;
+}
+
+#email::placeholder{
+    padding: 25px 0px 25px 30px;
+
+}
+#Subscribe-Newsletter{
+    margin-bottom: 120px;
 }
