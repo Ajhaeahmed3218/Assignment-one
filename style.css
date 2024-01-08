@@ -407,3 +407,80 @@ span{
 #Subscribe-Newsletter{
     margin-bottom: 120px;
 }
+
+
+
+            /* footeer style */
+
+.footer-main-container{
+    width: 100%;
+    background: #070211;
+    
+}           
+
+#phone-adderss-style{
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}   
+
+.phone-adderss{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0px 0px 0px;
+}
+
+
+.hr{
+    max-width: 1320px;
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    height: 1px;
+    color: #ffffff.15%;
+    padding-top: 50px;
+}
+hr{
+    color: #ffffff.15%;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 50px 0px 50px 0px;
+}
+
+.hr-tow{
+    max-width: 1320px;
+    width: 80%;
+    margin: 0px auto;
+    /* padding-bottom: 50px; */
+    height: 1px;
+    color: #ffffff.15%;
+    /* margin-top: 50px; */
+}
+
+
+.last-one-p{
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.last-com{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.peragraf{
+    padding-left: 320px;
+}
+.peragraf-tow{
+    padding-right:320px ;
+}
