@@ -393,12 +393,7 @@ span{
 
       /* olyday sell style */
    
-#Holidays-Sale-sub-containter{
-    margin-top:65px ;
-}
-#Holidays-Sale{
-    margin-bottom: 120px;
-}
+/
 
 .Holidays-Sale-first-p{
     color: #070211;
@@ -458,9 +453,7 @@ span{
     padding: 0px;
     margin: 0px;
 }
-#Holidays-Sale-sub-containter{
-    margin-bottom: -0px;
-}
+
 
 
 
@@ -652,7 +645,7 @@ hr{
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 50px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
 }
 
 .hr-tow{
@@ -692,64 +685,84 @@ hr{
 
 
 /* for test */
-.holiday-middle{
-    box-sizing: border-box;
-    margin-top: 20px;
-    /* background-color: #377e74; */
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: -0px;
+.Holidays-Sale-first-p{
+    color: #070211;
+    font-family: 'Inter',sans-serif;
+    font-size: 24px;  
+    font-weight: 500;
+    text-align: center;
+    
+}
+.Holidays-Sale-heading{
+    color: #070211;
+    font-family: 'Merriweather',sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+   
+}
+.Holidays-Sale-lust-p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 65;
+    
+}
+.Holidays-Sale-lust-p{
+    max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 30px;
 }
 
-.holiday-middle{
-    top: 5px;
+
+/* photo section */
+
+.Holidays-img-first-row{
     max-width: 1320px;
     width: 80%;
     margin: 0px auto;
-    box-sizing: border-box;
-    margin-top: 20px;
-    /* background-color: #377e74; */
-    position: relative;
     display: flex;
-    justify-content: flex-end;}
-    .discount{
-        position: absolute;
-        box-sizing: border-box;
-        width: 20%;
-        top: 10%;
-        right: 20%;
-        
-    }
-    #img-4{
-        width: 100%;
-    }
-    
-    .holiday-bottom{
-        /* background-color: #377e74; */
-        box-sizing: border-box;
-    }
-    #img-5,#img-6{
-        width: 100%;
-    }
-    
-    .box-div{
-        width: 35%;
-        position: absolute;
-        top: 55%;
-        left: 10%;
-    }   
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 65px;
+}
+.img-Group-44{
+    position: relative;
+    left:  150px;
+   bottom: 50px;
+}
 
-    .red-div{
-        max-width: 1320px;
-        width: 80%;
-        margin: 0px auto;
-        margin-top: -0px;
-        padding-bottom: 10px;
-    }
-    #img-6{
-        position: relative;
-        top: 3300px;
-        left: 150px;
-        
-    }
+/* 2nd row  */
+
+.img-Rectangle-2{
+    max-width: 1320px;
+    width: 100%;
+    position:relative ;
+    margin: 0px auto;
+    bottom: 4px;
+}
+
+#img-Group-75{
+  width: 600px;
+}
+
+.img-Group-75{
+    margin: 0px auto;
+    max-width: 1320px;
+    width: 100%;
+    position: relative;    
+    bottom: 500px;
+    left: 60px;
+}
+
+
+#best-gift-section{
+    margin-top: -350px;
+}
